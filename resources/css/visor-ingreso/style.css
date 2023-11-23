@@ -1,0 +1,92 @@
+e.to-copy-hand {
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.to-copy-hand:hover {
+  color: #5850EC;
+}
+
+.to-copy-hand:active {
+  background: #e2ebf4;
+}
+
+.fieldset-propietario,.fieldset-conductor  {
+  background: #DBEAFE;
+  border: none;
+}
+.fieldset-vin{
+  background: #DBE4FE;
+  border: none;
+}
+.fieldset-vin legend{
+  background: #DBE4FE;
+  border-radius: 5px;
+}
+
+.fieldset-propietario legend,.fieldset-conductor legend  {
+  background: #DBEAFE;
+  border-radius: 5px;
+}
+
+.tip {
+  display: initial;
+  font-size: 14px;
+  padding: 0px 3px;
+  color: #335066;
+}
+
+.tip.liviano {
+}
+
+.tip.moto {
+  text-shadow: 1px 1px 3px #749fbf;
+}
+
+.tip.taxi {
+  text-shadow: 1px 1px 3px #fdc94e;
+}
+
+
+
+/* video rechazo */
+
+video {
+  width: 100%;
+  height: auto;
+  max-width: 600px;
+  max-height: 300px;
+  border: 5px solid #7E8A99;
+  border-radius: 9px;
+  background: #1e2c38;
+
+}
+#container-resultado {
+  border: 1px dashed #cbd2d9;
+  background: #fafcff;
+  border-radius: 10px;
+  max-height: 300px;
+  overflow: auto;
+
+}
+#container-resultado li {
+  font-weight: bold;
+  padding: .4em;
+  list-style-type: none;
+
+}
+
+#container-resultado li ul li {
+  font-weight: normal;
+  padding-left: 1em !important;
+  cursor: pointer;
+  color: #169fcc;
+  background: #DEE8F2;
+  margin-top: 1px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+#container-resultado ol {
+  padding-left: 1em !important;
+}

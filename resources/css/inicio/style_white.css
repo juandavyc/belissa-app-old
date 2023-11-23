@@ -1,0 +1,51 @@
+.container-ckeditor {
+  font-size: 13px;
+  line-height: 1.6;
+  word-wrap: break-word;
+}
+
+.container-ckeditor table td {
+  border: 1px solid #c1c1c1;
+}
+
+.container-ckeditor h1,
+.container-ckeditor h2,
+.container-ckeditor h3,
+.container-ckeditor h4,
+.container-ckeditor h5,
+.container-ckeditor h6 {
+  font-weight: normal;
+  line-height: 1.2;
+}
+
+.container-ckeditor h1 {
+  font-size: 26px;
+}
+
+.container-ckeditor h2 {
+  font-size: 19.6px;
+}
+
+.container-ckeditor h3 {
+  font-size: 15.21px;
+}
+
+.container-ckeditor big {
+  font-size: 16.21px;
+}
+
+.container-ckeditor pre {
+  font-family: 'Consolas';
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  -moz-tab-size: 4;
+  tab-size: 4;
+}
+
+.container-ckeditor p {
+  margin: 1em 0;
+}
+
+.container-ckeditor .marker {
+  background-color: Yellow;
+}

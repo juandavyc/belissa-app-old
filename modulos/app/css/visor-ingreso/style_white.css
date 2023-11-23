@@ -1,0 +1,48 @@
+.to-copy-hand {
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.to-copy-hand:hover {
+  color: #f92672;
+}
+
+.to-copy-hand:active {
+  background: #e2ebf4;
+}
+
+.fieldset-propietario {
+  background: #f8f9fb;
+  border: none;
+}
+
+.fieldset-propietario legend {
+  background: #f8f9fb;
+}
+
+.fieldset-conductor {
+  background: #e7eff7;
+  border: none;
+}
+
+.fieldset-conductor legend {
+  background: #e7eff7;
+}
+
+.tip {
+  display: initial;
+  font-size: 14px;
+  padding: 0px 3px;
+  color: #335066;
+}
+
+.tip.liviano {
+}
+
+.tip.moto {
+  text-shadow: 1px 1px 3px #749fbf;
+}
+
+.tip.taxi {
+  text-shadow: 1px 1px 3px #fdc94e;
+}

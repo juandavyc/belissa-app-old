@@ -1,0 +1,162 @@
+input,
+input,
+select,
+button,
+.hasDatepicker {
+  font-size: 19px;
+  padding: 0 0.5em;
+  height: 40px;
+  line-height: 37px;
+}
+
+p,
+textarea {
+  font-size: 18px;
+}
+label {
+  font-size: 14px;
+}
+button {
+  font-size: 20px !important;
+  height: 40px !important;
+  line-height: 30px !important;
+}
+.icon-input {
+  font-size: 17px;
+  height: 40px;
+  line-height: 37px;
+  width: 50px;
+}
+
+.label-datos {
+  min-height: 40px;
+  line-height: 40px;
+}
+
+.fieldset-alt {
+  border: 0;
+  box-shadow: none;
+  background: #ecf1f7;
+}
+.fieldset-alt legend {
+  color: #4c6779;
+  font-size: 15px;
+  background: #ecf1f7;
+  border-radius: 4px;
+}
+.label-datos-alt,
+.label-datos-alt-orange {
+  min-height: 18px;
+  line-height: 18px;
+  padding-left: 5px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-top: 0.5em;
+}
+.label-datos-alt {
+  background: rgb(240, 243, 250);
+  background: linear-gradient(140deg, rgba(240, 243, 250, 1) 0%, rgba(255, 255, 255, 1) 50%);
+}
+.label-datos-alt-orange {
+  color: #333333;
+  background: rgb(255, 191, 159);
+  background: linear-gradient(23deg, rgba(255, 191, 159, 1) 0%, rgba(255, 255, 255, 1) 50%);
+}
+.ingreso-placa-mod input {
+  padding: 0.1em;
+  font-size: 45px;
+  text-align: center;
+  background: #ecf1f7;
+  border: 2px solid #68879f;
+  height: 67px;
+  text-transform: uppercase;
+}
+
+.ingreso-placa-mod .icon-input {
+  font-size: 45px;
+  text-align: center;
+  color: #fff;
+  background: #68879f;
+  border: 2px solid #68879f;
+  border-right: 0;
+  height: 67px;
+  line-height: 67px;
+  width: 80px;
+}
+
+.vh-tipo,
+.vh-servicio {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 0.5em;
+}
+input[type='checkbox'] + label,
+input[type='radio'] + label {
+  font-size: 19px;
+}
+
+input[type='checkbox'] + label::before,
+input[type='radio'] + label::before {
+  top: 0px;
+  width: 38px;
+  height: 38px;
+  line-height: 36px;
+}
+/*  
+ padding: 0.1em;
+  font-size: 45px;
+  text-align: center;
+  background: #ecf1f7;
+  border: 2px solid #68879f;
+  color: #335066;
+  */
+.ui-widget-content {
+  font-size: 18px;
+}
+
+.h3-orange {
+  color: #ec763c;
+  font-weight: bold;
+  background: #faf6f3;
+  border-radius: 10px;
+  padding: 0.3em;
+}
+
+.ui-autocomplete-input {
+  height: 40px;
+}
+
+.photo-buttons {
+  line-height: 73px;
+  height: 73px;
+}
+
+.ingreso-placa-primero {
+  background: #fff8e1 !important;
+}
+
+.ingreso-placa-segundo {
+  background: #e9ffdc !important;
+}
+
+#ingreso-placa-instruccion {
+  color: #0a880a;
+}
+
+.video-container {
+  padding-top: 56.25%;
+  height: 0px;
+  position: relative;
+}
+
+.video {
+  border-radius: 4px;
+  box-shadow: 0 0 5px #335066;
+  border: 5px solid #335066;
+  background: #335066;
+  width: 100%;
+  height: 95%;
+  position: absolute;
+  top: 0px;
+  left: 0;
+}

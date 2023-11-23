@@ -1,0 +1,41 @@
+.estado {
+  display: initial;
+  font-size: 14px;
+  padding: 0px 3px;
+  text-align: center;
+  color: #000;
+}
+
+.sin-asistir {
+  color: #c5d8e6;
+}
+.asistio {
+  color: #3ac41e;
+  text-shadow: 1px 1px 4px #76b969;
+}
+.no-asistio {
+  color: #e6962f;
+}
+.anulado {
+  color: #000;
+}
+.vencido {
+  color: #f00;
+}
+
+.reagendado {
+  color: #408aff;
+}
+
+ul.alt li {
+  padding: 1px 1em;
+}
+
+#btn-cupo-agendar-recargar,
+#btn-cupo-recargar {
+  max-width: 100px;
+}
+
+.b-warning {
+  color: red;
+}

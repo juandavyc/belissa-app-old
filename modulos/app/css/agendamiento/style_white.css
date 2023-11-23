@@ -1,0 +1,56 @@
+.estado {
+  display: initial;
+  font-size: 14px;
+  padding: 0px 3px;
+  text-align: center;
+  color: #000;
+}
+
+.sin-asistir {
+  color: #66869d;
+  text-shadow: 1px 1px 4px #74a6ca;
+}
+.asistio {
+  color: #4baa38;
+  text-shadow: 1px 1px 4px #76b969;
+}
+.no-asistio {
+  color: #ff5400;
+  text-shadow: 1px 1px 4px #ff6a63;
+}
+.anulado {
+  color: #000;
+}
+.vencido {
+  color: #ac1616;
+  text-shadow: 1px 1px 4px #ff0060;
+}
+
+.reagendado {
+  color: #0164ff;
+  text-shadow: 1px 1px 4px #5d76fd;
+}
+
+#container-cupos,
+#container-cupos-agendar {
+  background: #f6fafd;
+  padding: 0.5em;
+  border-radius: 10px;
+}
+ul.alt li {
+  border-top: 1px solid #d8e2eb;
+  padding: 1px 1em;
+}
+#btn-cupo-agendar-recargar,
+#btn-cupo-recargar {
+  max-width: 100px;
+}
+.b-moto {
+  color: #3078a4;
+}
+.b-liviano {
+  color: #027b31;
+}
+.b-warning{
+  color:red
+}

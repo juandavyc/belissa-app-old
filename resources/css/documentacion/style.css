@@ -1,0 +1,55 @@
+.ol-mapa {
+    counter-reset: item;
+    margin: 0px;
+}
+
+.ol-mapa li {
+    display: block
+}
+
+.ol-mapa li:before {
+    content: counters(item, ".") ". "; /*a */
+    counter-increment: item
+}
+
+.video-container {
+    padding-top: 56.25%;
+    height: 0px;
+    position: relative;
+}
+
+#video-title {
+    background: #335066;
+    border-radius: 4px;
+    margin-bottom: 4px;
+    color: #FFF;
+    font-weight: bold;
+    text-align: center;
+}
+
+.video {
+    border-radius: 4px;
+    box-shadow: 0 0 5px #335066;
+    border: 5px solid #335066;
+    background: #335066;
+    width: 100%;
+    height: 95%;
+    position: absolute;
+    top: 0px;
+    left: 0;
+}
+
+#listado-videos ul,
+#listado-videos ol {
+    margin: 0px;
+}
+
+.li-video {
+    border-bottom: 1px dotted;
+    font-weight: bold;
+}
+
+.li-video:hover {
+    background-color: #F7F7F7;
+    cursor: pointer;
+}

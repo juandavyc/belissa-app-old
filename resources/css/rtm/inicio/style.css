@@ -1,0 +1,13 @@
+.h2-desea {
+  font-weight: bold;
+  font-size: 32px;
+}
+.div-buscador {
+  padding: 1em 1em 1.7em;
+  background: #dce5ea;
+  border-radius: 20px;
+}
+.div-buscador button {
+  border-top-right-radius: 10px !important;
+  border-bottom-right-radius: 10px !important;
+}

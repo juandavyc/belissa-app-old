@@ -1,0 +1,3 @@
+Aca van todas las clases, modelos,vistas,controladores
+cosas que se manejen de manera privada.
+

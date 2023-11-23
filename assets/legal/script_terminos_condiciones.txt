@@ -1,0 +1,53 @@
+     <div class="col-12">
+      <hr />
+      <label class="label-important">
+        Términos y condiciones <b>( Importante )</b></label
+      >
+    </div>
+    <div class="col-12">
+      <input
+        type="checkbox"
+        id="form_3_terminos_condiciones"
+        name="form_3_terminos_condiciones"
+        required
+      />
+      <label for="form_3_terminos_condiciones">
+        Acepto los
+        <a href="#" class="form-a-legal" data-url="terminos_y_condiciones"
+          >Términos y condiciones de uso</a
+        >
+        y la
+        <a href="#" class="form-a-legal" data-url="politica_de_privacidad">
+          Política de privacidad</a
+        >
+      </label>
+    </div>
+    $('.form-a-legal').click(function(e) {
+        let temp_url_legal = $(this).attr('data-url');
+
+        let self = $.confirm({
+            typeAnimated: true,
+            scrollToPreviousElement: false,
+            scrollToPreviousElementAnimate: false,
+            content: function() {
+                return $.ajax({
+                    url: PROTOCOL_HOST + "/assets/legal/" + (temp_url_legal) + ".php",
+                    timeout: 5000,
+                }).done(function(response) {
+                    self.setTitle(temp_url_legal.toUpperCase());
+                    self.setContent(response);
+
+                }).fail(function(response) {
+                    timeout_error(response, self);
+                });
+            },
+            buttons: {
+                aceptar: function() {},
+            },
+        });
+
+
+
+        e.preventDefault();
+        return false;
+    });
